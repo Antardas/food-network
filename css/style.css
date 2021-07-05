@@ -1,21 +1,29 @@
 /* Basic Style Start*/
+
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
     
 }
 a {
     text-decoration: none;
 }
+
 /* End Basic Style */
 
 /* Start Hero Header Section  */
 .hero-header {
+     margin-top: 100px;  
+}
+.flexible-container {
     display: flex;
-    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .col-1-2 {
     width: 50%;
-    margin-left: 50px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 .hero-heading {
     font-size: 50px;
@@ -31,10 +39,9 @@ a {
     font-weight: 600;
     line-height: 30px;
     color: #828282;
-    margin: 10px 0 50px 0;
 }
 .link-button {
-    padding: 20px 40px;
+    padding: 14px 40px;
     background-image: linear-gradient(to right, #fb994c, #fe482e);
     border-radius: 30px;
     font-size: 18px;
@@ -46,10 +53,33 @@ a {
     line-height: 70px;
 
 }
-
-
-
-
-
-
 /* End Hero Header Section  */
+
+/* Start About Me Section */
+.about-food {
+    background-image: url(../images/shapes/about-food-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.female01 {
+    width: 300px;
+    margin-left: 20%;
+}
+.about-food .col-1-2 {
+    padding-top: 50px;
+}
+.large-text {
+    font-size: 50px;
+    color: #575757;
+}
+.about-summery {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+}
+.about-food .col-1-2 .link-button {
+    display: inline-block;
+    margin-top: 50px;
+}
+/* End About Section */
