@@ -1,0 +1,55 @@
+/* Basic Style Start*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+a {
+    text-decoration: none;
+}
+/* End Basic Style */
+
+/* Start Hero Header Section  */
+.hero-header {
+    display: flex;
+    margin-top: 100px;
+}
+.col-1-2 {
+    width: 50%;
+    margin-left: 50px;
+}
+.hero-heading {
+    font-size: 50px;
+    font-weight: bold;
+    color: #575757;
+    text-align: left;
+}
+.hero-header .single-text-color {
+    color: #FB934A;
+}
+.summery {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #828282;
+    margin: 10px 0 50px 0;
+}
+.link-button {
+    padding: 20px 40px;
+    background-image: linear-gradient(to right, #fb994c, #fe482e);
+    border-radius: 30px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.text-area {
+    margin-top: 150px;
+    line-height: 70px;
+
+}
+
+
+
+
+
+
+/* End Hero Header Section  */
