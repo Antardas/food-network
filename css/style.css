@@ -32,7 +32,7 @@ a {
     color: #575757;
     text-align: left;
 }
-.hero-header .single-text-color {
+.single-text-color {
     color: #FB934A;
 }
 .summery {
@@ -125,6 +125,24 @@ a {
 }
 
 /* Endd Recipi Section */
+
+/* start Limit Pizza Price */
+.limit-price {
+    background-image: url(../images/food/section_bg.jpg);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    box-shadow: 0 10px 25px gray;
+
+}
+.limit-price .pizza-detail .single-text-color {
+    display: block;
+}
+.limit-price .limit-pizza-image {
+    width: 100%;
+    position: relative;
+    top: -50px;
+}
+
 
 
 /* Start Social Section */
