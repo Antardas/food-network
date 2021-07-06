@@ -143,7 +143,60 @@ a {
     top: -50px;
 }
 
+/* End Limit Pizza Price Section */
 
+/* Start Delivery Section */
+.food-delivery {
+    width: 90%;
+    margin: 100px auto;
+    position: relative;
+    /* background-image: linear-gradient(to bottom, rgba(254, 74, 46, 0.5), rgba(251, 152, 76, 0.5));
+     */
+     background-image: linear-gradient(69deg, rgba(236, 0, 142, 0.541), #fc6767);
+    border-radius: 5%;
+    color: #ffffff;
+
+}
+.food-delivery::before, footer::before {
+    content: "";
+    background-image: url(../images/shapes/section_bg.png);
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    top: 3%;
+    left: 50px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+.food-delivery .col-1-3 {
+    box-shadow: none;
+    margin: 2.5%;
+}
+.food-delivery .bike .bike-image{
+    width: 80%;
+}
+.food-delivery {
+    border-radius: 0 50px 0 50px ;
+}
+.food-delivery .single-text-color {
+    color: #ffffff
+}
+.food-delivery .contact .large-text {
+    color: #ffffff;
+    transform: translateY(100%);
+}
+.number-bg {
+    transform: translateY(50%);
+}
+.number-bg .number{
+    background-image: linear-gradient(69deg,  rgba(252,103,103,0.5), rgba(236,0,140,1));
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 2em;
+    transform: translateY(100%);
+}
+/* End Delivery Section */
 
 /* Start Social Section */
 .social {
@@ -152,8 +205,6 @@ a {
     box-shadow: 5px 5px 15px 7px rgba(55, 65, 65, 0.192);
     border-radius: 20px;
     margin-bottom: 100px;
-    
-
 }
 .social .col-1-3 {
     border-right: 3px dotted rgba(128, 128, 128, 0.527);
@@ -174,8 +225,10 @@ a {
 
 footer {
     height: 150px;
-    background-image: linear-gradient(to right, #fe482e,#fb994c);
+    background-image: linear-gradient(to right, rgba(254, 75, 47, 0.5),rgba(240, 15, 8, 0.507));
     padding: 20px 0;
+    border-radius: 40px 40px 0 00;
+    position: relative;
 }
 footer span {
     color: #ffffff
