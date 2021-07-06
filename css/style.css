@@ -98,12 +98,12 @@ a {
 /* End About Section */
 
 
-/* Start Recipi Section */
-.recipi {
+/* Start recipe Section */
+.recipe {
     width: 90%;
     margin: auto;
 }
-.recipi .large-text, .recipi .about-summery {
+.recipe .large-text, .recipe .about-summery {
     text-align: center;
 }
 .card {
@@ -124,7 +124,7 @@ a {
     text-align: left;
 }
 
-/* Endd Recipi Section */
+/* Endd recipe Section */
 
 /* start Limit Pizza Price */
 .limit-price {
